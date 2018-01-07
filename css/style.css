@@ -1,0 +1,90 @@
+body{
+    margin: 0 auto;
+}
+.header{
+    height: 140px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.pag{
+    width: 100%;
+}
+.content-c{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    width: 100%;
+    height: 100px;
+    background: pink;
+    
+}
+.menu{
+    background: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 40px;
+    
+}
+.content{
+    padding-top: 100px;
+    background: white;
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.column-left{
+    width:80%;
+    background: yellow;
+}
+.column-rigth{
+    width:20%;
+    background: lightgreen;
+}
+.portadaPpal{
+    width: 100%;
+    height: 70%;
+    background: peru;
+    margin-bottom: 20px;
+}
+.portadaSecundaria{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.art-portadaSec{
+    width: 33%;
+    height: 100%;
+    background: red;
+}
+.articulos{
+    width:100%;
+    height: auto;
+    background: lightseagreen
+}
+.titleArticulos{
+    width: 100%;
+    height: 40px;
+    background: brown;
+}
+.articulo{
+    width: 100%;
+    height: 100px;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.imgArticulo{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+.contentArticulo{
+    width: 100%;
+    height: 100%;
+}
