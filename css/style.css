@@ -1,6 +1,11 @@
 body{
     margin: 0 auto;
 }
+h4, h2{
+    margin-top: 40px;
+    margin-left: 10px;
+    color: white;
+}
 .header{
     height: 140px;
     width: 100%;
@@ -18,19 +23,53 @@ body{
 .banner{
     width: 100%;
     height: 100px;
-    background: pink;
+    background: rgb(33,42,52);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 20px; 
     
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    color:white;
+    text-shadow: 2px 2px rgb(114,218,78);
+    margin-right: 20px; 
+    margin-top: 20px; 
+}
+.bottom{
+    height:auto;
+    width:180px;
+}
+.bottom:hover{
+    background-color: rgb(114,218,78);
+    color:black;
+}
+input{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 0 4px 0 4px;
+    height: 30px;
 }
 .menu{
+    display: flex;
+    justify-content: space-between;
     background: black;
     opacity: 0.5;
     width: 100%;
     height: 40px;
-    
+    color: white;  
 }
 .content{
     padding-top: 100px;
-    background: white;
+    background: lightgray;
     width:100%;
     height: auto;
     display: flex;
@@ -38,17 +77,37 @@ body{
 }
 .column-left{
     width:80%;
-    background: yellow;
+    background: white;
 }
 .column-rigth{
     width:20%;
-    background: lightgreen;
+    background: lightgray;
 }
 .portadaPpal{
     width: 100%;
-    height: 70%;
-    background: peru;
+    height: 100%;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgPortadaPpal{
+    width: 100%;
+    height: auto;
+    background: greenyellow;
+}
+#imgPpal{
+    width:100%;
+    height: 100%;
+}
+.contentPortadaPpal{
+    width: 30%;
+    height: 100%;
+    margin-left: 50%;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 99;
+    float: right;
+    background: black;
 }
 .portadaSecundaria{
     width: 100%;
@@ -61,20 +120,41 @@ body{
     width: 33%;
     height: 100%;
     background: red;
+    display: flex;
+    justify-content: space-between;
+}
+.imgPortadaSecundaria{
+    width:100%;
+    height: 100%;
+}
+.imgArtSecundaria{
+    width:100%;
+    height:100%;
+}
+.contentPortadaSecundaria{
+    margin-top:10%;
+    width: 26.4%;
+    height: 10%;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 99;
+    float: right;
+    background: black;
 }
 .articulos{
     width:100%;
     height: auto;
-    background: lightseagreen
+    
 }
 .titleArticulos{
     width: 100%;
     height: 40px;
-    background: brown;
+    margin-bottom: 0 1px solid;
 }
 .articulo{
     width: 100%;
     height: 100px;
+    margin-top: 10px;
     background: grey;
     display: flex;
     justify-content: space-between;

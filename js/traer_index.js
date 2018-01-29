@@ -1,0 +1,5 @@
+var index = "<div class='content'><div class='column-left'><div class='portada'><div class='portadaPpal'><div class='imgPortadaPpal'></div><div class='contentPortadaPpal' id='contentPortadaPpal'></div></div><div class='portadaSecundaria'><div class='art-portadaSec'><div class='imgPortadaSecundaria' id='imgPS1'></div><div class='contentPortadaSecundaria' id='contentPS1'></div></div><div class='art-portadaSec'><div class='imgPortadaSecundaria' id='imgPS2'></div><div class='contentPortadaSecundaria' id='contentPS2'></div></div><div class='art-portadaSec'><div class='imgPortadaSecundaria' id='imgPS3'></div><div class='contentPortadaSecundaria' id='contentPS3'></div></div></div></div><div class='articulos'><div class='titleArticulos'><h1>Articulos</h1></div><div class='articulo'><div class='imgArticulo' id='imgPU1'></div><div class='contentArticulo' id='contentPU1'></div></div><div class='articulo'> <div class='imgArticulo' id='imgPU2'></div><div class='contentArticulo' id='contentPU2'></div></div></div></div>";
+
+function traerIndex(){
+    $('.content-c').html(index);
+}
